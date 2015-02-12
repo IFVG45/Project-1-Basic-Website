@@ -1,143 +1,121 @@
-/*this is a CSS comment */
-html {
-  background-color: #ffffff;
-
-  color:black
-}
-
-h1 {
-  color: #cc3865;
-  font-family:Sigmar-One,sans-serif;
-  font-weight: bold;
-  font-size: 2rem;
+header {
   text-align: center;
-  line-height: 1;
-
-
-
+  margin: 0;
+  display: block;
+  background-color: #ffe524;
 }
 
-h2 {
-
-color: #cc3865;
-font-family:sigmar-one,sans-serif;
-font-weight: bold;
-font-size: 3rem;
-text-align: left;
-line-height: 1;
-
+h1, h2 {
+  font-family: 'Sigmar One', cursive;
 }
 
-h3 {
-
-  color: #cc3865;
-  font-family:sigmar-one ,sans-serif;
-  font-weight:bold;
-  font-size: 1rem;
-  text-align: left;
-  line-height: 1;
+p, .info, .info2 {
+  font-family: 'Georgia', serif;
+  font-size: 0.8rem;
 }
 
-
-p{
-
-  color: #000000;
-  font-family:georgia,sans-serif;
-  font-weight: regular;
-  font-size: 1rem;
-  text-align: left;
-  line-height: 1;
-}
-
-
-nav{
-  color: dark yellow;
-
-}
-
-
-
-
-
-blockquote {
-  font-style: normal;
+blockquote span {
   text-align: center;
-  font-size:1.3rem;
-  color:#b2a215;
+  display: block;
+  font-size: 2.5rem;
 }
 
-
-
-dt{
-
-  font-weight: bold;
-
+cite {
+  text-align: center;
+  color: #b2a215;
 }
 
+nav {
+  padding: .5em;
+}
 
-
-
-body{
+header h1 {
   margin: 0;
 }
 
+img {
+  width: 100%;
+}
 
-/*inline: allows other elements beside on the same line padding,margin,width dont work as
-expected.
+body {
+  margin: 0;
+}
 
-block:take up one whole line in the browser window padding,margin,width
-work as expected
+main {
+  margin: .5em;
+}
 
-inline-block: allow other elements beside on the same line.
-*/
+h1 {
+  color: #b32f52;
+  text-align: center;
+}
+
+ol {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+  background-color: #b2a215;
+  padding: 0.5em;
+  border-radius: 5px;
+  display: inline;
+}
+
+nav li:hover {
+  background-color: #cc3865;
+  padding: 0.5em;
+  border-radius: 5px;
+  display: inline;
+}
+
+blockquote {
+  color: #b2a215;
+}
+
+h2 {
+  color: #b32f52;
+  border-top: 2px solid black;
+  padding: 1em;
+}
 
 
-h1{
+figure {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  border-radius: 0.4em;
+  border: 2px solid #c5b844;
+  background-color: #fffce0;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+.info {
+  font-weight: bold;
+}
+
+.info2 {
+  margin: 0;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 1.5em;
+  margin: 0;
+  display: block;
   background-color: #ffe524;
-
-  /*start at top and go clockwise; top,right,bottom,left*/
-  padding: 1em 2em 3em 0.5em;
-
-  margin: 0 1em; /* top/bottom  left/right*/
-
-  border:1px  #000;
-
-  border-radius:10 px;
-
-  display: inline-block;
-
 }
 
-a{
-  background-color: yellow;
-  display: inline-block;
-
+i {
+  font-size: 0.8rem;
 }
-
-
- nav{
- background-color: #ffe524;
- text-align: center;
-
-}
-
- nav ul{
-   list-style-type: none;
-   padding: 0;
-   margin: 0;
-
- }
-
- nav li{
-   display: inline;
-
- }
-
-  nav a{
-    display: inline-block;
-    padding: 0.5em 0.75em;
-    background-color: #b2a215;
-    color: white;
-    text-decoration: underline;
-
-  }
