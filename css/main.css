@@ -11,13 +11,13 @@ h1, h2 {
 
 p, .info, .info2 {
   font-family: 'Georgia', serif;
-  font-size: 0.8rem;
+  font-size: 1.0rem;
 }
 
-blockquote span {
+blockquote {
   text-align: center;
   display: block;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 cite {
@@ -109,11 +109,11 @@ figcaption {
 
 footer {
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   padding: 1.5em;
   margin: 0;
   display: block;
-  background-color: #ffe524;
+  background-color: #ffffff;
 }
 
 i {
